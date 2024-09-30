@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.AccentColor{
+  background-color: #f9d800;
+}
+.AccentColorText{
+  color: #f9d800;
+}
+.Typography{
+  color: #333333;
+}
+.w-15{
+  width: 15% !important;
+}

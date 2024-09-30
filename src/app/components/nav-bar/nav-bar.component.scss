@@ -1,0 +1,12 @@
+nav{
+  background-color: rgb(255, 255, 255) !important;
+  a{
+    color: rgb(0, 0, 0);
+  }
+}
+.navbar-toggler {
+  border: none;
+  outline: none !important; /* Ensure that the outline is completely removed */
+  box-shadow: none; /* Removes any box shadow that may look like an outline */
+}
+

@@ -1,0 +1,15 @@
+<section id="ourServices" class="">
+  <div class="container">
+    <!-- border -->
+    <div class="row">
+      <div *ngFor="let service of services" class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
+        <!-- border-end pt-2 -->
+        <i class="{{service.icon}} fs-1 fw-bold AccentColorText me-3"></i>
+        <div class="text">
+          <h5 class="fw-semibold">{{service.title}}</h5>
+          <p class="fw-lighter Typography">{{service.dec}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
