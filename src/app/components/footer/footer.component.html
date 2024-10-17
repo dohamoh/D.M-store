@@ -1,14 +1,27 @@
-<footer class="bg-light py-5">
+<footer class="pt-5">
   <div class="container">
-  <div class="row justify-content-center">
-    <div *ngFor="let detial of details" class="col-lg-3">
-      <h4 class="fw-bold">{{detial.title}}</h4>
-      <p class="fs-6">{{detial.item1}}</p>
-      <p class="fs-6">{{detial.item2}}</p>
-      <p class="fs-6">{{detial.item3}}</p>
-      <p class="fs-6">{{detial.item4}}</p>
-      <!-- <p>{{detial.item1}}</p> -->
+    <div class="row justify-content-center">
+      <div *ngFor="let detial of details" class="col-lg-3 col-md-6 col-12 pb-2 pt-3 pt-lg-0  pb-2 border-bottom">
+        <h4 class="fw-bold Typography">{{detial.title}}</h4>
+        <p class="fs-6">{{detial.item1}}</p>
+        <p class="fs-6">{{detial.item2}}</p>
+        <p class="fs-6">{{detial.item3}}</p>
+        <!-- <p class="fs-6"></p> -->
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 pb-2 pt-3 pt-lg-0 border-bottom">
+        <h4 class="fw-bold Typography">NEWSLETTER</h4>
+        <p>Get E-mail updates about our latest shop and special offers.</p>
+        <div class="input-container">
+          <input class="form-control" type="email" placeholder="Email">
+          <button class="btn fw-bold AccentColor Typography input-button">Subscribe</button>
+        </div>
+        <div class="iconMain d-flex w-75 pt-3 fw-semibold justify-content-between pb-3">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter-x"></i>
+        </div>
+      </div>
+      <p class="text-center pt-3">Copyright © 2024 All rights reserved | This template is made by DohaElshafey</p>
     </div>
   </div>
-</div>
 </footer>

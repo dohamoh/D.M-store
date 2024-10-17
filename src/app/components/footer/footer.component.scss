@@ -1,0 +1,60 @@
+footer {
+  background-color: #ffffff;
+
+  p {
+    color: gray;
+  }
+
+  .input-container {
+    position: relative;
+    // width: 200px;
+
+    /* Set width of the input container */
+    input {
+      width: 100%;
+      padding: 10px;
+      padding-right: 50px;
+      /* Add padding so that text doesn't overlap the button */
+      box-sizing: border-box;
+    }
+
+    .input-button {
+      position: absolute;
+      right: 1px;
+      top: 0;
+      bottom: 0;
+      padding: 0 18px;
+      border: none;
+      cursor: pointer;
+      height: 100%;
+      /* Ensure the button takes up the full height of the input */
+    }
+  }
+  input:focus {
+    outline: none !important;
+  }
+  .input-button:hover {
+    background-color: #333333;
+    color: #f2ba01;
+  }
+  .iconMain{
+    @media (max-width: 576px) {
+      width: 35% !important;
+    }
+    i{
+      height: 40px;
+      width: 40px;
+      background: #e3e0e0;
+      color: #333333;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      transition: .5s;
+      &:hover{
+        background-color: #f9d800;
+      }
+    }
+  }
+
+
+}
