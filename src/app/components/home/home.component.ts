@@ -55,10 +55,10 @@ export class HomeComponent {
     '/assets/images/product/kids-9.webp',
   ]
   cosImages: string[] = [
-    '/assets/images/product/cosmatic-3.webp',
-    '/assets/images/product/cosmatic-4.avif',
-    '/assets/images/product/cosmatic-2.webp',
-    '/assets/images/product/cosmatic-10.webp',
+    './assets/images/product/cosmatic-3.webp',
+    './assets/images/product/cosmatic-4.avif',
+    './assets/images/product/cosmatic-2.webp',
+    './assets/images/product/cosmatic-10.webp',
   ]
 
 
